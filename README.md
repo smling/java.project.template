@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/CookieCutter-blue?style=flat-square&logo=cookiecutter&logoColor=lightbrown)
 ![](https://img.shields.io/badge/Python-grey?style=flat-square&logo=python&logoColor=lightbrown)
 
-This is the project template on [CookieCutter](https://github.com/cookiecutter/cookiecutter) for creating API client and models.
+This is the project template on [CookieCutter](https://github.com/cookiecutter/cookiecutter) for creating Java library project.
 
 
 ## Prerequesties ##
