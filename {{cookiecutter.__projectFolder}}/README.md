@@ -10,7 +10,7 @@
 
 ## Description ##
 
-This repo provides Data models and Service client for {{cookiecutter.artifact.lower().replace(".", " ")}} to build Notification team Microservices.
+This repository contains source code of {{cookiecutter.artifact}}.
 
 The code within this pipeline triggers the job for `CI.Maven` which builds the java package and published to Nexus OSS.
 
