@@ -1,0 +1,10 @@
+{
+  "javaVersion": ["17", "19", "11", "1.8"],
+  "projectType": ["gradle", "maven"],
+  "group": "io.github",
+  "artifact": "demo-library",
+  "version": "1.0.0-SNAPSHOT",
+  "__projectName": "{{cookiecutter.group}}.{{cookiecutter.artifact}}",
+  "__projectFolder" : "{{cookiecutter.artifact}}",
+  "__projectPackageRoot" : "{{cookiecutter.group.lower()}}.{{cookiecutter.artifact.lower().replace('-','.') }}"
+}
