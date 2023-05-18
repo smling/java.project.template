@@ -1,7 +1,11 @@
 # {{cookiecutter.artifact.capitalize().replace(".", " ")}} #
 
+{% if cookiecutter.projectType == "maven" %}
 ![](https://img.shields.io/badge/Project-Maven-green?style=flat-square&logo=apachemaven&logoColor=red)
+{% endif %}
+{% if cookiecutter.projectType == "gradle" %}
 ![](https://img.shields.io/badge/Project-Gradle-green?style=flat-square&logo=gradle&logoColor=blue)
+{% endif %}
 ![](https://img.shields.io/badge/Language-Java_{{cookiecutter.javaVersion}}-green?style=flat-square&logo=java&logoColor=red)
 
 ## Description ##
@@ -69,11 +73,9 @@ Suggest read this session before start develop in this repository.
 | :open_file_folder: `src/test` | This contains unit test code. |
 {% if cookiecutter.projectType == "maven" %}
 | :clipboard: `pom.xml` | Contains project information required by maven. |
-{% else %}
 {% endif %}
 {% if cookiecutter.projectType == "gradle" %}
 | :clipboard: `build.gradle.kts` | Contains project information required by gradle. |
-{% else %}
 {% endif %}
 | :clipboard: `README.md` | This file. |
 | :clipboard: `CHANGELOG.md` | High level information about version changed.
