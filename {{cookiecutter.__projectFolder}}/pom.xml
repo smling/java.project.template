@@ -19,9 +19,8 @@
         <maven.compiler.source>{{cookiecutter.javaVersion}}</maven.compiler.source>
         <maven.compiler.target>{{cookiecutter.javaVersion}}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <junit-version>5.10.0-M1</junit-version>
-        <mockito.version>3.9.0</mockito.version>
+        <junit-version>{{maven_package_version_lookup("org.junit", "junit-bom")}}</junit-version>
+        <mockito.version>{{maven_package_version_lookup("org.mockito", "mockito-junit-jupiter")}}</mockito.version>
     </properties>
 
     <dependencies>

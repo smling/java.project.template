@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0-M1"))
+    testImplementation(platform("org.junit:junit-bom:{{maven_package_version_lookup("org.junit","junit-bom")}}"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 

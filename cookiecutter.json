@@ -6,5 +6,8 @@
   "version": "1.0.0-SNAPSHOT",
   "__projectName": "{{cookiecutter.group}}.{{cookiecutter.artifact}}",
   "__projectFolder" : "{{cookiecutter.artifact}}",
-  "__projectPackageRoot" : "{{cookiecutter.group.lower()}}.{{cookiecutter.artifact.lower().replace('-','.') }}"
+  "__projectPackageRoot" : "{{cookiecutter.group.lower()}}.{{cookiecutter.artifact.lower().replace('-','.') }}",
+  "_extensions" : [
+    "local_extensions.MavenPackageVersionLookupExtension"
+  ]
 }
