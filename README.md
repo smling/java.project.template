@@ -5,6 +5,9 @@
 
 This is the project template on [CookieCutter](https://github.com/cookiecutter/cookiecutter) for creating Java library project.
 
+User can use the template to create Java Maven / Gradle project and supported Java LTS version.
+
+When rendering project, it will lookup Maven to get latest package version to prevent patching after project created.
 
 ## Prerequesties ##
 1. Install CookieCutter in workspace.
