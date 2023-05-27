@@ -12,7 +12,8 @@ repositories {
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:{{maven_package_version_lookup("org.junit","junit-bom")}}"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation("org.mockito:mockito-junit-jupiter:{{maven_package_version_lookup("org.mockito", "mockito-junit-jupiter")}}'")
+    testImplementation("org.mockito:mockito-junit-jupiter:{{maven_package_version_lookup("org.mockito", "mockito-inline")}}'")
 }
 
 tasks.test {
